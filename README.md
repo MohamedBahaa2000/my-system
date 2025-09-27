@@ -100,3 +100,7 @@ POST /api/permissions → Create permission (requires create_permissions)
 PUT /api/permissions/{id} → Update permission (requires edit_permissions)
 
 DELETE /api/permissions/{id} → Delete permission (requires delete_permissions)
+
+## API Testing
+- you can find postman collections inside the "/postman" folder
+- import "REST API basics- CRUD, test & variable.postman_collection.json" into postman to test the APIs
