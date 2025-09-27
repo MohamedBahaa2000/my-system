@@ -52,26 +52,30 @@ Email: limited@example.com
 Password: 123456
 
 ## API Endpoints
-##- Auth
+- Auth
+
 POST /api/login → Login & get token
 POST /api/register → Register new user
 POST /api/logout → Logout (invalidate token)
 
-##- Users
+- Users
+  
 GET /api/users → List users (requires view_users)
 POST /api/users → Create user (requires create_users)
 GET /api/users/{id} → View single user (requires view_users)
 PUT /api/users/{id} → Update user (requires edit_users)
 DELETE /api/users/{id} → Delete user (requires delete_users)
 
-##- Groups
+- Groups
+  
 GET /api/groups → List groups (requires view_groups)
 POST /api/groups → Create group (requires create_groups)
 PUT /api/groups/{id} → Update group (requires edit_groups)
 DELETE /api/groups/{id} → Delete group (requires delete_groups)
 POST /api/groups/{id}/permissions → Assign permissions to group (requires assign_permissions)
 
-##- Permissions
+- Permissions
+  
 GET /api/permissions → List permissions (requires view_permissions)
 POST /api/permissions → Create permission (requires create_permissions)
 PUT /api/permissions/{id} → Update permission (requires edit_permissions)
