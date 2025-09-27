@@ -20,8 +20,7 @@ It provides APIs for managing **Users, Groups, and Permissions** with authentica
 - PHP >= 8.2 
 - Composer  
 - MySQL 
-- Laravel 12  
-- Node.js & NPM (optional for frontend)  
+- Laravel 12   
 
 ---
 
